@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>306134888341-pl92u2hrl6ges6895rnbudo8j56p5rml.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.306134888341-pl92u2hrl6ges6895rnbudo8j56p5rml</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCP_ZZEN15DGhANfZ29tFNnMBX_l5b1HcI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>306134888341</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.mobileProjects2</string>
+	<key>PROJECT_ID</key>
+	<string>mobileprojectspart2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mobileprojectspart2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:306134888341:ios:ffeb3ea75721a24461109c</string>
+	<key>DATABASE_URL</key>
+	<string>https://mobileprojectspart2.firebaseio.com</string>
+</dict>
+</plist>
