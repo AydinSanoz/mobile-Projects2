@@ -1,0 +1,134 @@
+[
+   {
+       "id":1,
+       "city":"Aix-en-Provence"
+   },
+   {
+    "id":2,
+    "city":"Ajaccio"
+},
+{
+    "id":3,
+    "city":"Annecy"
+},
+{
+    "id":4,
+    "city":"Antibes"
+},
+{
+    "id":5,
+    "city":"Arcachon"
+},
+{
+    "id":6,
+    "city":"Avignon"
+},
+{
+    "id":7,
+    "city":"Biarritz"
+},
+{
+    "id":8,
+    "city":"Blaye"
+},
+{
+    "id":9,
+    "city":"Bordeaux"
+},
+{
+    "id":10,
+    "city":"Cannes"
+},
+{
+    "id":11,
+    "city":"Carcassonne"
+},
+{
+    "id":12,
+    "city":"Cassis"
+},
+{
+    "id":13,
+    "city":"Chamonix"
+},
+{
+    "id":14,
+    "city":"Colmar"
+},
+{
+    "id":15,
+    "city":"Courchevel"
+},
+{
+    "id":16,
+    "city":"Dijon"
+},
+{
+    "id":17,
+    "city":"Evian"
+},
+{
+    "id":18,
+    "city":"Fotaine de Vaucluse"
+},
+{
+    "id":19,
+    "city":"Korsika"
+},
+{
+    "id":20,
+    "city":"Lambesc"
+},
+{
+    "id":21,
+    "city":"Le Havre"
+},
+{
+    "id":22,
+    "city":"Lyon"
+},
+{
+    "id":23,
+    "city":"Menton"
+},
+{
+    "id":24,
+    "city":"Meribel"
+},
+{
+    "id":25,
+    "city":"Nancy"
+},
+{
+    "id":26,
+    "city":"Nice"
+},
+{
+    "id":27,
+    "city":"Paris"
+},
+{
+    "id":28,
+    "city":"Provence"
+},
+{
+    "id":29,
+    "city":"Saint-Maxime"
+},
+{
+    "id":30,
+    "city":"Saint-Tropez"
+},
+{
+    "id":31,
+    "city":"St.Malo"
+},
+{
+    "id":32,
+    "city":"Strazburg"
+},
+{
+    "id":33,
+    "city":"Toulon"
+}
+]

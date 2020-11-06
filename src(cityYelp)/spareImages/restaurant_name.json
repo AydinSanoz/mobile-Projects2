@@ -1,0 +1,92 @@
+[{
+    "id":1,
+    "location":"31 Avenue de Versailles",
+    "address":"75016 Paris, France",
+    "phone":"01 42 15 55 70",
+    "name":"Comice",
+    "stars":3.9,
+    "reviews": 197,
+    "image":"https://cdn.vox-cdn.com/thumbor/ZV6tTUV-hydl_k0Y6TSltbnavJU=/0x0:1080x747/1270x953/filters:focal(454x288:626x460):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62565863/35145200_1016301748535631_6415537283058892800_o.0.0.jpg"
+},
+{
+    "id":2,
+    "location":"4 rue Beethoven",
+    "address":"Paris, Île-de-France",
+    "phone":"(+33) 1 40 50 84 40",
+    "name":"L'Astrance",
+    "stars":4.7,
+    "reviews": 311,
+    "image":"https://cdn.vox-cdn.com/thumbor/xIN7V4fPP2kxLrESXWPE9NIqsLU=/0x0:2048x1365/1270x953/filters:focal(861x520:1187x846):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62565854/l-astrance-starfood-scot.0.0.0.jpg"
+},
+{
+    "id":3,
+    "location":"46 Avenue de la Bourdonnais",
+    "address":"75007 Paris, France",
+    "phone":"01 42 15 55 70",
+    "name":"Restaurant Arnaud Nicolas",
+    "stars":3.8,
+    "reviews": 256,
+    "image":"https://cdn.vox-cdn.com/thumbor/ec3qKD65uuO9vnrud-z_mkan1KA=/0x0:1080x1080/1270x953/filters:focal(502x400:674x572):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/66331085/Arnaud_FB.0.jpg"
+},
+{
+    "id":4,
+    "location":"27 Rue Mala",
+    "address":"75007 Paris, France",
+    "phone":"01 47 05 86 89",
+    "name":"Chez L'Ami Jean",
+    "stars":4.7,
+    "reviews": 432,
+    "image":"https://cdn.vox-cdn.com/thumbor/VnfQmjMUkeUftdi_HVcTRi6tyvA=/0x0:1920x1275/1270x953/filters:focal(936x491:1242x797):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/66331086/lami_jean.0.jpg"
+},
+{
+    "id":5,
+    "location":"29 rue Surcouf",
+    "address":"Paris, Île-de-France",
+    "phone":"(+33) 1 45 50 11 10",
+    "name":"Restaurant David Toutain",
+    "stars":4.8,
+    "reviews": 784,
+    "image":"https://cdn.vox-cdn.com/thumbor/TCAykYvUEOXzrFaAe7H1Wf8Vhvs=/0x0:4367x2747/1270x953/filters:focal(1835x1025:2533x1723):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62565855/Restaurant-David-Toutain-official.0.0.0.jpg"
+},
+{
+    "id":6,
+    "location":"112 Rue du Faubourg Saint-Honoré",
+    "address":"75008 Paris, France",
+    "phone":"01 53 43 43 00",
+    "name":"L’Epicure",
+    "stars":4.8,
+    "reviews": 1297,
+    "image":"https://cdn.vox-cdn.com/thumbor/oYSTdpVz45-NGk8YZphohPmqtks=/0x0:1920x750/1270x953/filters:focal(807x222:1113x528):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/66331088/Epicure.0.jpg"
+},
+{
+    "id":7,
+    "location":"3 rue de Montfaucon",
+    "address":"Paris, Île-de-France",
+    "phone":"(+33) 1 44 41 10 07",
+    "name":"Oysters at l’Huîtrerie Régis",
+    "stars":4.1,
+    "reviews": 697,
+    "image":"https://cdn.vox-cdn.com/thumbor/65Qs9CuplJ_TQqZZm7ni2F2alkI=/0x0:960x960/1270x953/filters:focal(404x404:556x556):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62565859/13529244_1124765120917398_4396483372878838270_n.0.0.jpg"
+},
+{
+    "id":8,
+    "location":"34 rue de Richelieu",
+    "address":"Paris, Île-de-France",
+    "phone":"01 42 60 59 66",
+    "name":"Ellsworth",
+    "stars":4.2,
+    "reviews": 527,
+    "image":"https://cdn.vox-cdn.com/thumbor/WNVu9j3qDE4mluQ8jEG_b8-KS7w=/0x0:1500x1000/1270x953/filters:focal(344x434:584x674):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62565848/Ellsworth.102.jpg"
+},
+{
+    "id":9,
+    "location":"11 quai de Conti",
+    "address":"Paris, Île-de-France",
+    "phone":"(+33) 1 4380 40 61",
+    "name":"Guy Savoy",
+    "stars":4.9,
+    "reviews": 11497,
+    "image":"https://cdn.vox-cdn.com/thumbor/ZvkCp0jSs6czx56BL24rww2uld8=/0x0:1200x800/1270x953/filters:focal(504x304:696x496):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62565858/guy-savoy-official-site.0.0.0.jpg"
+}
+
+]
