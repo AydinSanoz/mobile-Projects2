@@ -5,8 +5,14 @@ import {JobItem} from '../components';
 import {FlatList} from 'react-native-gesture-handler';
 import {JobStyles} from '../styles';
 import Modal from 'react-native-modal';
-import {set} from 'react-native-reanimated';
 import {ModalComponent} from '../components';
+import  AsyncStorage from '@react-native-async-storage/async-storage';
+
+
+
+
+
+
 
 export const Job = (props) => {
   const [Jobs, setJobs] = useState([]);

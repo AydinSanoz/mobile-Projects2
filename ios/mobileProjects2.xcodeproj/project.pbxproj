@@ -20,6 +20,7 @@
 		8FBE407BAA40CBBAEF5FCF96 /* libPods-mobileProjects2-mobileProjects2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ABF40F4B2762E3556BE7B2 /* libPods-mobileProjects2-mobileProjects2Tests.a */; };
 		9D2518F79E47C63E178C5318 /* libPods-mobileProjects2-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA7A85DC5CE35AFB0B3885B /* libPods-mobileProjects2-tvOS.a */; };
 		AD88142A2555F9EC00DA2A62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD8814292555F9EB00DA2A62 /* GoogleService-Info.plist */; };
+		AD8815322556A05C00DA2A62 /* libRNCAsyncStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8815312556A05C00DA2A62 /* libRNCAsyncStorage.a */; };
 		D108982E2B00C38797A4C9FA /* libPods-mobileProjects2-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C98B375489D3BE57B49383DD /* libPods-mobileProjects2-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mobileProjects2/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C2441F7A19D951EDF97B08B /* Pods-mobileProjects2-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileProjects2-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-mobileProjects2-tvOS/Pods-mobileProjects2-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AD8814292555F9EB00DA2A62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD8815312556A05C00DA2A62 /* libRNCAsyncStorage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCAsyncStorage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6ABF40F4B2762E3556BE7B2 /* libPods-mobileProjects2-mobileProjects2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileProjects2-mobileProjects2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82F0150832BFDE1E6D6E839 /* Pods-mobileProjects2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileProjects2.debug.xcconfig"; path = "Target Support Files/Pods-mobileProjects2/Pods-mobileProjects2.debug.xcconfig"; sourceTree = "<group>"; };
 		C98B375489D3BE57B49383DD /* libPods-mobileProjects2-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileProjects2-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8815322556A05C00DA2A62 /* libRNCAsyncStorage.a in Frameworks */,
 				7ABC934D8F9BCA07F0ECF960 /* libPods-mobileProjects2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +159,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD8815312556A05C00DA2A62 /* libRNCAsyncStorage.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				4323C031513C6AA8309329D4 /* libPods-mobileProjects2.a */,
