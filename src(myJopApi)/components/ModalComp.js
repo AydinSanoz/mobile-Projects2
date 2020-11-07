@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Button} from 'react-native';
 import {ModalCompStyles} from '../styles';
 
 export const ModalComponent = (props) => {
@@ -13,6 +13,7 @@ export const ModalComponent = (props) => {
         <Text numberOfLines={7} style={ModalCompStyles.textDescription}>
           {props.selectedItem.description}
         </Text>
+        <Button title = 'Kaydet' onPress = {props.onSave}/>
       </View>
     </View>
   );

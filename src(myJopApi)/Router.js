@@ -2,7 +2,7 @@ import  React from 'react';
 import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { Intro, Job } from './Pages';
+import { Intro, Job, SavedJobs } from './Pages';
 
 function HomeScreen() {
   return (
@@ -20,6 +20,7 @@ function Router() {
       <Stack.Navigator screenOptions = {{headerShown: false}} >
         <Stack.Screen name="Intro" component={Intro} />
         <Stack.Screen name="Job" component={Job} />
+        <Stack.Screen name="SavedJobs" component={SavedJobs} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {SafeAreaView, Text, View, ActivityIndicator} from 'react-native';
+import {SafeAreaView, Text, View, ActivityIndicator, Button} from 'react-native';
 import Axios from 'axios';
 import {JobItem} from '../components';
 import {FlatList} from 'react-native-gesture-handler';
@@ -32,6 +32,11 @@ export const Job = (props) => {
     setModalFlag(true);
     setJobSelected(Job);
   }
+  function onSaveJob(type){
+    console.log('onSave Job')
+    console.log(jobSelected.title)
+    
+  }
   return (
     <SafeAreaView style={{flex: 1}}>
       <View style={{flex: 1}}>
@@ -53,8 +58,9 @@ export const Job = (props) => {
         <Modal
           isVisible={modalFlag}
           onBackdropPress={() => setModalFlag(false)}>
-          <ModalComponent selectedItem={jobSelected} />
+          <ModalComponent selectedItem={jobSelected} onSave = {onSaveJob}/>
         </Modal>
+        <Button title = 'Go Your Faverites' onPress = {()=>props.navigation.navigate('SavedJobs')}/>
       </View>
     </SafeAreaView>
   );
