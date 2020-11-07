@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, View, Text,ScrollView, FlatList} from 'react-native';
+import {SafeAreaView, View, Text,ScrollView, FlatList, Image, ImageBackground} from 'react-native';
 import {TopicItem} from '../components';
 import { introStyles } from '../styles';
 
@@ -58,15 +58,21 @@ export const Intro = (props) => {
         props.navigation.navigate('Job', {selectedJob : job})
     }
   return (
-    <SafeAreaView style = {{flex:1}}>
+    <SafeAreaView style = {{flex:1,  backgroundColor :'black'}}>
+        <ImageBackground
+         style = {{flex:1}}
+          source = {require('../../images/giphy.gif')}
+        >
       <View style = {{flex:1}}>
-        <Text style = {introStyles.text}>Select A Job Title</Text>
+        <Text style = {[introStyles.text, {color:'white'}]}>Select A Job Title</Text>
         <ScrollView horizontal>
           {topics.map((t, index) => {
             return <TopicItem key={index.toString()} item={t} onSelected = {() => onSelectedJob(t.name)}/>;
           })}
         </ScrollView>
+         
       </View>
+        </ImageBackground>
     </SafeAreaView>
   );
 };

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {SafeAreaView, Text, View, Button, Alert} from 'react-native';
+import {SafeAreaView, Text, View, ActivityIndicator} from 'react-native';
 import Axios from 'axios';
 import {JobItem} from '../components';
 import {FlatList} from 'react-native-gesture-handler';
@@ -12,12 +12,14 @@ export const Job = (props) => {
   const [Jobs, setJobs] = useState([]);
   const [modalFlag, setModalFlag] = useState(false);
   const [jobSelected, setJobSelected] = useState('');
+  const [isLoading, setIsLoading] = useState(true);
 
   const fetchData = async () => {
     const response = await Axios.get(
       `https://jobs.github.com/positions.json?search=${selectedJob.toLowerCase()}`,
     );
     setJobs(response.data);
+    setIsLoading(false);
   };
   useEffect(() => {
     fetchData();
@@ -36,17 +38,22 @@ export const Job = (props) => {
         <Text style={JobStyles.text}>
           SELECTED LANG :{selectedJob.toUpperCase()}
         </Text>
+        {isLoading ? (
+          <ActivityIndicator size = 'large' />
+        ) : (
+          <FlatList
+            keyExtractor={(_, index) => index.toString()}
+            data={Jobs}
+            renderItem={({item}) => {
+              return <JobItem item={item} onSelect={() => onSelectJob(item)} />;
+            }}
+          />
+        )}
 
-        <FlatList
-          keyExtractor={(_, index) => index.toString()}
-          data={Jobs}
-          renderItem={({item}) => {
-            return <JobItem item={item} onSelect={() => onSelectJob(item)} />;
-          }}
-        />
-
-        <Modal isVisible = {modalFlag} onBackdropPress = {()=>setModalFlag(false)}>
-          <ModalComponent selectedItem = {jobSelected}/>
+        <Modal
+          isVisible={modalFlag}
+          onBackdropPress={() => setModalFlag(false)}>
+          <ModalComponent selectedItem={jobSelected} />
         </Modal>
       </View>
     </SafeAreaView>
